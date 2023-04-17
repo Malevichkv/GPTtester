@@ -1,0 +1,1972 @@
+{
+ "name": "Retrodrops-AMB",
+ "type": "private_channel",
+ "id": 1661906981,
+ "messages": [
+  {
+   "id": 485,
+   "type": "message",
+   "date": "2023-04-02T09:29:06",
+   "date_unixtime": "1680416946",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Starknet id раздают OG домены обладателям ролей Odyssey OG, которую мы получали ранее выполняя квесты в их одиссее.\n\nДля того, чтобы заклеймить домен нужно:\n1. Перейти в |-bot-commands, ввести ",
+    {
+     "type": "bot_command",
+     "text": "/claim"
+    },
+    " и dвести свой Starknet Mainnet адрес, подтвердить и перейти по ссылке\n2. Зарегистрировать сабдомен\n\nДля тех у кого нет OG роли - еще не все потеряно (если верить админу). Чтобы ее получить, нужно:\n1. Перейти на сайт и выполнить все квесты\n",
+    {
+     "type": "link",
+     "text": "https://odyssey.starknet.id/quests"
+    },
+    "\n2. После этого, подключить кошелек и получить роль\n",
+    {
+     "type": "link",
+     "text": "https://odyssey.starknet.id/getrole"
+    },
+    "\n3. Ждать, пока бот выдаст OG роль\n4. Перейти к пунктам для клейма домена в начале поста.\n\nЕсли что-то будет не получаться, нужно писать в диск Starknet id и тегать модератора.\n\nTwitter: ",
+    {
+     "type": "link",
+     "text": "https://twitter.com/Starknet_id"
+    },
+    "\nDiscord:",
+    {
+     "type": "link",
+     "text": "https://discord.gg/8uS2Mgcsza"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Starknet id раздают OG домены обладателям ролей Odyssey OG, которую мы получали ранее выполняя квесты в их одиссее.\n\nДля того, чтобы заклеймить домен нужно:\n1. Перейти в |-bot-commands, ввести "
+    },
+    {
+     "type": "bot_command",
+     "text": "/claim"
+    },
+    {
+     "type": "plain",
+     "text": " и dвести свой Starknet Mainnet адрес, подтвердить и перейти по ссылке\n2. Зарегистрировать сабдомен\n\nДля тех у кого нет OG роли - еще не все потеряно (если верить админу). Чтобы ее получить, нужно:\n1. Перейти на сайт и выполнить все квесты\n"
+    },
+    {
+     "type": "link",
+     "text": "https://odyssey.starknet.id/quests"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. После этого, подключить кошелек и получить роль\n"
+    },
+    {
+     "type": "link",
+     "text": "https://odyssey.starknet.id/getrole"
+    },
+    {
+     "type": "plain",
+     "text": "\n3. Ждать, пока бот выдаст OG роль\n4. Перейти к пунктам для клейма домена в начале поста.\n\nЕсли что-то будет не получаться, нужно писать в диск Starknet id и тегать модератора.\n\nTwitter: "
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/Starknet_id"
+    },
+    {
+     "type": "plain",
+     "text": "\nDiscord:"
+    },
+    {
+     "type": "link",
+     "text": "https://discord.gg/8uS2Mgcsza"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 486,
+   "type": "message",
+   "date": "2023-04-02T09:42:06",
+   "date_unixtime": "1680417726",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "1. Используем стату в дюне для проверки кол-ва транз в LayerZero.  \n",
+    {
+     "type": "link",
+     "text": "https://dune.com/queries/2284211/3743283"
+    },
+    "\nОна считает далеко не все транзы, которые отображаются в ",
+    {
+     "type": "link",
+     "text": "https://layerzeroscan.com/"
+    },
+    ", но это нормально, лучше увидеть не большое кол-во транз и сделать еще, а в итоге (когда объявят критерии) приятно удивиться, что их оказалось больше.\n\nТут можно проверить количество транз и объем, который прогнали через Stargate (отображает только стейблы).\n",
+    {
+     "type": "link",
+     "text": "https://stgscan.io/"
+    },
+    "\nОтображает не точно, например если бриджите через старгейт внутри агрегатора (bungee, chainhop, jumper и др), то такой перевод хоть и будет отображаться в эксплорере л0, но в статистике нет.\n\n2. Совершая свапы или трансферы в любых протоколах, обращайте внимание на прайс импакт и слиппейдж. Если прайс импакт высокий, то можно либо уменьшить сумму свапа, либо скипнуть данный протокол и сделать его позднее. Слиппейдж мы уже можем регулировать, поэтому обязательно проверяйте какой слип установлен по дефолту. Например в Chainhop он всегда равен 3%, а можно спокойно уменьшить до 0.2%-0.3%, то же самое и в других протоколах, вроде Stargate, где важно еще и подбирать дешевые сети для трансферов. Например все в том же старгейте лучшим вариантом будет бриджить стейблы из Polygon в Avalanche, но проверяйте и сравнивайте, разница в комсе может быть х1.5-2.\n\n3. Кол-во транз можно набивать деплоями, т.к. это самая дешевая транзакция в Nova, zkSync Era и Starknet. Для Новы как обычно через ремикс деплоим простой Hello World, дальше можно либо повторять деплой, либо взаимодействовать с контрактом. Для деплоя в Эре можно использовать не большой читинг, чтобы не вводить команду для каждого деплоя отдельно, для этого нужно прописывать после команды && и повторять ее. То есть чтобы сделать 2 деплоя (4 транзы) нужно ввести: npx hardhat deploy-zksync && npx hardhat deploy-zksync."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "1. Используем стату в дюне для проверки кол-ва транз в LayerZero.  \n"
+    },
+    {
+     "type": "link",
+     "text": "https://dune.com/queries/2284211/3743283"
+    },
+    {
+     "type": "plain",
+     "text": "\nОна считает далеко не все транзы, которые отображаются в "
+    },
+    {
+     "type": "link",
+     "text": "https://layerzeroscan.com/"
+    },
+    {
+     "type": "plain",
+     "text": ", но это нормально, лучше увидеть не большое кол-во транз и сделать еще, а в итоге (когда объявят критерии) приятно удивиться, что их оказалось больше.\n\nТут можно проверить количество транз и объем, который прогнали через Stargate (отображает только стейблы).\n"
+    },
+    {
+     "type": "link",
+     "text": "https://stgscan.io/"
+    },
+    {
+     "type": "plain",
+     "text": "\nОтображает не точно, например если бриджите через старгейт внутри агрегатора (bungee, chainhop, jumper и др), то такой перевод хоть и будет отображаться в эксплорере л0, но в статистике нет.\n\n2. Совершая свапы или трансферы в любых протоколах, обращайте внимание на прайс импакт и слиппейдж. Если прайс импакт высокий, то можно либо уменьшить сумму свапа, либо скипнуть данный протокол и сделать его позднее. Слиппейдж мы уже можем регулировать, поэтому обязательно проверяйте какой слип установлен по дефолту. Например в Chainhop он всегда равен 3%, а можно спокойно уменьшить до 0.2%-0.3%, то же самое и в других протоколах, вроде Stargate, где важно еще и подбирать дешевые сети для трансферов. Например все в том же старгейте лучшим вариантом будет бриджить стейблы из Polygon в Avalanche, но проверяйте и сравнивайте, разница в комсе может быть х1.5-2.\n\n3. Кол-во транз можно набивать деплоями, т.к. это самая дешевая транзакция в Nova, zkSync Era и Starknet. Для Новы как обычно через ремикс деплоим простой Hello World, дальше можно либо повторять деплой, либо взаимодействовать с контрактом. Для деплоя в Эре можно использовать не большой читинг, чтобы не вводить команду для каждого деплоя отдельно, для этого нужно прописывать после команды && и повторять ее. То есть чтобы сделать 2 деплоя (4 транзы) нужно ввести: npx hardhat deploy-zksync && npx hardhat deploy-zksync."
+    }
+   ]
+  },
+  {
+   "id": 487,
+   "type": "message",
+   "date": "2023-04-02T12:33:01",
+   "date_unixtime": "1680427981",
+   "edited": "2023-04-02T16:55:40",
+   "edited_unixtime": "1680443740",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 10498,
+   "width": 1280,
+   "height": 720,
+   "text": "Запись вчерашнего созвона",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Запись вчерашнего созвона"
+    }
+   ]
+  },
+  {
+   "id": 488,
+   "type": "message",
+   "date": "2023-04-02T20:49:01",
+   "date_unixtime": "1680457741",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "*Arbswap Stage 0.5*\n\n*Дедлайн 4 апреля 17:00 по Киеву\n\nArbswap - DEX в Arbitrum Nova, запустили эирдроп кампанию. Для участия необходимо собирать ArbEggs, выполняя соц задания, чтобы в итоге заработать роль Real Arbsian. За эту роль дадут спешал ArbEgg NFT, который гарантирует, что вы не пропустите ни одну будущую награду.\n\nСоциальные задания:\n- подписаться на твиттер\n- вступить в диск, проклацать реакции в | start-here \n- набрать 3 инвайта в диске\n- заполнить форму ",
+    {
+     "type": "link",
+     "text": "https://forms.gle/XMJDDW9iLUhtVeVv8"
+    },
+    "\n- поделиться твитом и найти скрытые ключевые слова для получения доп eggs\n- скинуть ссылку на твит в канале ",
+    {
+     "type": "hashtag",
+     "text": "#tweet"
+    },
+    "-dispatch\n\nСсылка на диск в посту:\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/ArbswapOfficial/status/1641705483819163648"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "*Arbswap Stage 0.5*\n\n*Дедлайн 4 апреля 17:00 по Киеву\n\nArbswap - DEX в Arbitrum Nova, запустили эирдроп кампанию. Для участия необходимо собирать ArbEggs, выполняя соц задания, чтобы в итоге заработать роль Real Arbsian. За эту роль дадут спешал ArbEgg NFT, который гарантирует, что вы не пропустите ни одну будущую награду.\n\nСоциальные задания:\n- подписаться на твиттер\n- вступить в диск, проклацать реакции в | start-here \n- набрать 3 инвайта в диске\n- заполнить форму "
+    },
+    {
+     "type": "link",
+     "text": "https://forms.gle/XMJDDW9iLUhtVeVv8"
+    },
+    {
+     "type": "plain",
+     "text": "\n- поделиться твитом и найти скрытые ключевые слова для получения доп eggs\n- скинуть ссылку на твит в канале "
+    },
+    {
+     "type": "hashtag",
+     "text": "#tweet"
+    },
+    {
+     "type": "plain",
+     "text": "-dispatch\n\nСсылка на диск в посту:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/ArbswapOfficial/status/1641705483819163648"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 489,
+   "type": "message",
+   "date": "2023-04-03T10:33:13",
+   "date_unixtime": "1680507193",
+   "edited": "2023-04-03T12:09:15",
+   "edited_unixtime": "1680512955",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "mime_type": "image/png",
+   "width": 1582,
+   "height": 5441,
+   "text": "Обновленный маршрут по ретродроп активностям",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Обновленный маршрут по ретродроп активностям"
+    }
+   ]
+  },
+  {
+   "id": 490,
+   "type": "message",
+   "date": "2023-04-03T11:50:05",
+   "date_unixtime": "1680511805",
+   "edited": "2023-04-03T13:17:24",
+   "edited_unixtime": "1680517044",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "SyncSwap Era Pioneer Campaign\n\n*Свапы + ликва в Era mainnet\n*Дедлайн 20 апреля \n\nПростая кампания, за которую можно получить бадж Era Pioneer, который в свою очередь будет определять ранних юзеров SyncSwap (не смотря на предыдущие ачивки для ранних). После клейма так же получаем роль Era Pioneer.\n",
+    {
+     "type": "link",
+     "text": "https://guild.xyz/syncswap"
+    },
+    "\n\nДля клейма нужно:\n- Нужно совершить более двух свапов. Минимума нет.\n- Положить ликву в пул, лучше ETH/USDC. Минимума нет.\n- Лайк + ретвит поста\n- Дождаться верифа от галхе (может очень долго подтверждать)\n",
+    {
+     "type": "link",
+     "text": "https://galxe.com/SyncSwap/campaign/GCd81U1awt"
+    },
+    "\n\nТак же, не помешает нажать вверху на кнопку \"2-Year Anniversary Celebration\" и сминтить нфт от Galxe.\n\nИзза того, что галхе сейчас отказывается верифать, не получается проверить, учитываются ли врапы, но по словам админа SyncSwap, в качестве объемов они не считаются. В общем то ничего нового.\n",
+    {
+     "type": "link",
+     "text": "https://mirror.xyz/0x000002c34bAE6DD7BeC72AcbA6aAAC1e01A359De/AFeWt8Ynkyrsojmm4Dw9NV9jCxPtER0v4Fgr3mm4iPA"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "SyncSwap Era Pioneer Campaign\n\n*Свапы + ликва в Era mainnet\n*Дедлайн 20 апреля \n\nПростая кампания, за которую можно получить бадж Era Pioneer, который в свою очередь будет определять ранних юзеров SyncSwap (не смотря на предыдущие ачивки для ранних). После клейма так же получаем роль Era Pioneer.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://guild.xyz/syncswap"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nДля клейма нужно:\n- Нужно совершить более двух свапов. Минимума нет.\n- Положить ликву в пул, лучше ETH/USDC. Минимума нет.\n- Лайк + ретвит поста\n- Дождаться верифа от галхе (может очень долго подтверждать)\n"
+    },
+    {
+     "type": "link",
+     "text": "https://galxe.com/SyncSwap/campaign/GCd81U1awt"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nТак же, не помешает нажать вверху на кнопку \"2-Year Anniversary Celebration\" и сминтить нфт от Galxe.\n\nИзза того, что галхе сейчас отказывается верифать, не получается проверить, учитываются ли врапы, но по словам админа SyncSwap, в качестве объемов они не считаются. В общем то ничего нового.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://mirror.xyz/0x000002c34bAE6DD7BeC72AcbA6aAAC1e01A359De/AFeWt8Ynkyrsojmm4Dw9NV9jCxPtER0v4Fgr3mm4iPA"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 491,
+   "type": "message",
+   "date": "2023-04-05T10:30:13",
+   "date_unixtime": "1680679813",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "WhiteBIT Testnet\n\n*Приоритет средний\n*Временные затраты: 2-3 минуты\n*Дедлайна нет\n\n1. Подключаем сеть в метамаске.\n",
+    {
+     "type": "link",
+     "text": "https://cdn.whitebit.com/blockchain/Guidance-Testnet.pdf"
+    },
+    "\n2. Получаем тестовые токены в кране.\n",
+    {
+     "type": "link",
+     "text": "https://explorer.whitebit.network/faucet"
+    },
+    "\n3. Деплоим токен / нфт через ремикс.\nДля сквада: ",
+    {
+     "type": "link",
+     "text": "https://www.notion.so/2top/Shardeum-Scroll-Arbitrum-One-Nova-Optimism-Ethereum-Taiko-Mantle-Base-ConsenSys-0d0b56a2d37747a388b89b14fecc5ab4"
+    },
+    "\nДля нод: ",
+    {
+     "type": "link",
+     "text": "https://www.notion.so/2top/Shardeum-Scroll-Arbitrum-One-Nova-Optimism-Ethereum-Taiko-Mantle-Base-ConsenSys-eaf3665c157b44ad8af40abbc07f3bbb"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "WhiteBIT Testnet\n\n*Приоритет средний\n*Временные затраты: 2-3 минуты\n*Дедлайна нет\n\n1. Подключаем сеть в метамаске.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://cdn.whitebit.com/blockchain/Guidance-Testnet.pdf"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. Получаем тестовые токены в кране.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://explorer.whitebit.network/faucet"
+    },
+    {
+     "type": "plain",
+     "text": "\n3. Деплоим токен / нфт через ремикс.\nДля сквада: "
+    },
+    {
+     "type": "link",
+     "text": "https://www.notion.so/2top/Shardeum-Scroll-Arbitrum-One-Nova-Optimism-Ethereum-Taiko-Mantle-Base-ConsenSys-0d0b56a2d37747a388b89b14fecc5ab4"
+    },
+    {
+     "type": "plain",
+     "text": "\nДля нод: "
+    },
+    {
+     "type": "link",
+     "text": "https://www.notion.so/2top/Shardeum-Scroll-Arbitrum-One-Nova-Optimism-Ethereum-Taiko-Mantle-Base-ConsenSys-eaf3665c157b44ad8af40abbc07f3bbb"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 492,
+   "type": "message",
+   "date": "2023-04-05T10:50:04",
+   "date_unixtime": "1680681004",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "SpaceFi Era Campaign Series\n\n*Приоритет высокий, действия минимальные\n*Дедлайна нет, но затягивать не стоит\n\nСтартует серия кампаний, первая называется SpaceFi Era-1: Farmer. В ее условия входит:\n\n1. Добавить ликвидность в один из пулов, наш вариант ETH/USDC\n",
+    {
+     "type": "link",
+     "text": "https://swap-zksync.spacefi.io/#/swap"
+    },
+    "\n2. Застейкать LP в один из трех вариантов с разными сроками анбондинга и соот-но APR, за 14 дней получаем 113% в токенах xSPACE.\n",
+    {
+     "type": "link",
+     "text": "https://app.spacefi.io/#/farm"
+    },
+    "\n3. Выполнить соц задания\n",
+    {
+     "type": "link",
+     "text": "https://gleam.io/bKmTY/explore-spacefi-era1-farmer"
+    },
+    "\n4. Ждать, когда можно будет сминтить бадж\n\nТак как у нас итак уже есть ликвидность в пулах, остается ее только застейкать и получить дополнительные награды в будущем.\n\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/spacefi_io/status/1643245961349836801"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "SpaceFi Era Campaign Series\n\n*Приоритет высокий, действия минимальные\n*Дедлайна нет, но затягивать не стоит\n\nСтартует серия кампаний, первая называется SpaceFi Era-1: Farmer. В ее условия входит:\n\n1. Добавить ликвидность в один из пулов, наш вариант ETH/USDC\n"
+    },
+    {
+     "type": "link",
+     "text": "https://swap-zksync.spacefi.io/#/swap"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. Застейкать LP в один из трех вариантов с разными сроками анбондинга и соот-но APR, за 14 дней получаем 113% в токенах xSPACE.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://app.spacefi.io/#/farm"
+    },
+    {
+     "type": "plain",
+     "text": "\n3. Выполнить соц задания\n"
+    },
+    {
+     "type": "link",
+     "text": "https://gleam.io/bKmTY/explore-spacefi-era1-farmer"
+    },
+    {
+     "type": "plain",
+     "text": "\n4. Ждать, когда можно будет сминтить бадж\n\nТак как у нас итак уже есть ликвидность в пулах, остается ее только застейкать и получить дополнительные награды в будущем.\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/spacefi_io/status/1643245961349836801"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 493,
+   "type": "message",
+   "date": "2023-04-06T12:36:04",
+   "date_unixtime": "1680773764",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "SyncSwap объявили о собственном токене SYNC, который будет запущен в будущем.\n\nЕсли у вас имеется одна или несколько ролей перечисленных в канале \"wallet\", но вы еще почему то не подтверждали там свой кошелек, перейдите в канал и подтвердите.\n",
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/953301763811840000/1008932265633529856"
+    },
+    "\n\nНа мой взгляд снепшот маловероятен, ведь они запустились в мейннете всего две недели назад. Время есть минимум до 20 числа, иначе зачем этот ОАТ и роль для \"ранних\" - Era Pioneer. \n\nВ то же время, не стоит делать фомо-алын и идти сливать на свапах депозит, не забывайте про рм."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "SyncSwap объявили о собственном токене SYNC, который будет запущен в будущем.\n\nЕсли у вас имеется одна или несколько ролей перечисленных в канале \"wallet\", но вы еще почему то не подтверждали там свой кошелек, перейдите в канал и подтвердите.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/953301763811840000/1008932265633529856"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nНа мой взгляд снепшот маловероятен, ведь они запустились в мейннете всего две недели назад. Время есть минимум до 20 числа, иначе зачем этот ОАТ и роль для \"ранних\" - Era Pioneer. \n\nВ то же время, не стоит делать фомо-алын и идти сливать на свапах депозит, не забывайте про рм."
+    }
+   ]
+  },
+  {
+   "id": 494,
+   "type": "message",
+   "date": "2023-04-06T12:59:02",
+   "date_unixtime": "1680775142",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "RabbitHole представили новую систему ончейн репутации ETH Earned. Чем больше квестов вы выполните, тем выше будет ваш заработанный ETH Earned скор. \n\nДанный скор напоминает бекон дегенскора. Варианты использования очень похожи:\n-право на отдельные квесты\n-доступ к экслюзивным платформам\n-вес в принятии решений в голосованиях\n-проекты могут давать дропы на основании скора\n\nОстается надеяться, что этот скор будет важен хоть кому нибудь из нормальных проектов.\n\nЧуть более подробно тут (минт статьи стоит ±3$)\n",
+    {
+     "type": "link",
+     "text": "https://rabbithole.mirror.xyz/27i037kvM0IzPYf69a3tJGbYoy9EQppopIYejKgzIY8"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://rabbithole.gg/rewards"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "RabbitHole представили новую систему ончейн репутации ETH Earned. Чем больше квестов вы выполните, тем выше будет ваш заработанный ETH Earned скор. \n\nДанный скор напоминает бекон дегенскора. Варианты использования очень похожи:\n-право на отдельные квесты\n-доступ к экслюзивным платформам\n-вес в принятии решений в голосованиях\n-проекты могут давать дропы на основании скора\n\nОстается надеяться, что этот скор будет важен хоть кому нибудь из нормальных проектов.\n\nЧуть более подробно тут (минт статьи стоит ±3$)\n"
+    },
+    {
+     "type": "link",
+     "text": "https://rabbithole.mirror.xyz/27i037kvM0IzPYf69a3tJGbYoy9EQppopIYejKgzIY8"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://rabbithole.gg/rewards"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 495,
+   "type": "message",
+   "date": "2023-04-06T19:32:01",
+   "date_unixtime": "1680798721",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Base Early Builder NFT\n\nBase принесли нам первую ачивку за деплои, в виде нфт от самого Andrea Oshea. \n\nТак как мы уже деплоили в Base, все что нужно для клейма нфт это:\n1. перейти на сайт ",
+    {
+     "type": "link",
+     "text": "https://quests.base.org/quest"
+    },
+    "\n2. подключить кошелек\n3. вставить адрес задеплоенного контракта. \n\nНайти адрес можно в эксплорере ",
+    {
+     "type": "link",
+     "text": "https://goerli.basescan.org/"
+    },
+    ", вставляем кошелек и ищем транзакцию Contract Creation, после чего копируем его.\n\nВторая нфт будет доступна для клейма уже в мейннете.\n\nПодробнее тут:\n",
+    {
+     "type": "link",
+     "text": "https://base.mirror.xyz/CsHm8poSS9HqWNMvPZEZDIn8LMjiNy5PwUd7z8F6G-Q"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Base Early Builder NFT\n\nBase принесли нам первую ачивку за деплои, в виде нфт от самого Andrea Oshea. \n\nТак как мы уже деплоили в Base, все что нужно для клейма нфт это:\n1. перейти на сайт "
+    },
+    {
+     "type": "link",
+     "text": "https://quests.base.org/quest"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. подключить кошелек\n3. вставить адрес задеплоенного контракта. \n\nНайти адрес можно в эксплорере "
+    },
+    {
+     "type": "link",
+     "text": "https://goerli.basescan.org/"
+    },
+    {
+     "type": "plain",
+     "text": ", вставляем кошелек и ищем транзакцию Contract Creation, после чего копируем его.\n\nВторая нфт будет доступна для клейма уже в мейннете.\n\nПодробнее тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://base.mirror.xyz/CsHm8poSS9HqWNMvPZEZDIn8LMjiNy5PwUd7z8F6G-Q"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 496,
+   "type": "message",
+   "date": "2023-04-07T14:25:05",
+   "date_unixtime": "1680866705",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Uniswap открыли свою гильдию. Сейчас доступно 4 роли:\n\nV3 Liquidity Provider - за наличие NFT от ликвы в пуле в сети эфира\nSwapper - за 20 свапов в сети эфира и наличие соответствующего бейджа\n",
+    {
+     "type": "link",
+     "text": "https://noox.world/badge/104577845207406739233498577831854075688817521750848206372017175842561722417170"
+    },
+    "\nSuper Swapper - за 100 свапов в сети эфира и наличие соответствующего бейджа\n",
+    {
+     "type": "link",
+     "text": "https://noox.world/badge/104577845207406739233498577831854075688817521750848206372017175842561722417173"
+    },
+    "\nUnisocks Holder - за холд гема ",
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/unisocks"
+    },
+    "\n\nЖдем выходных, чтобы жечь газ ради джипегов и ролей.\n\n",
+    {
+     "type": "link",
+     "text": "https://guild.xyz/uniswapguild"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Uniswap открыли свою гильдию. Сейчас доступно 4 роли:\n\nV3 Liquidity Provider - за наличие NFT от ликвы в пуле в сети эфира\nSwapper - за 20 свапов в сети эфира и наличие соответствующего бейджа\n"
+    },
+    {
+     "type": "link",
+     "text": "https://noox.world/badge/104577845207406739233498577831854075688817521750848206372017175842561722417170"
+    },
+    {
+     "type": "plain",
+     "text": "\nSuper Swapper - за 100 свапов в сети эфира и наличие соответствующего бейджа\n"
+    },
+    {
+     "type": "link",
+     "text": "https://noox.world/badge/104577845207406739233498577831854075688817521750848206372017175842561722417173"
+    },
+    {
+     "type": "plain",
+     "text": "\nUnisocks Holder - за холд гема "
+    },
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/unisocks"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nЖдем выходных, чтобы жечь газ ради джипегов и ролей.\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://guild.xyz/uniswapguild"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 497,
+   "type": "message",
+   "date": "2023-04-07T15:02:01",
+   "date_unixtime": "1680868921",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "EigenLayer\n\n*Тестнет, приоритет высокий\n*Временные затраты ±10 минут\n*Дедлайна нет\n\nEigenLayer - протокол рестейкинга. Привлекли суммарно $64.4M, в инвесторах Blockchain Capital, Coinbase, Polychain и тд.\n\nЗапустили тестнет, естественно \"не награждаемый\", который будет состоять из трех этапов:\nStage 1: Stakers - где юзеры вовлечены в тестирование модуля рестейкинга\nStage 2: Operators - где нодеры смогут получить делегирование от рестейкеров\nStage 3: Services - где будут внедрены первые активные проверенные службы\n\nСейчас мы можем протестировать первый этап, который доступен в сети Goerli. Для этого:\n1. Покупаем gETH в сети Арбитрум или Оптимизм\n",
+    {
+     "type": "link",
+     "text": "https://testnetbridge.com/"
+    },
+    "\n2. Отправляем gETH на адрес контракта stETH, чтобы таким образом совершить свап. В метамаске при отправке нажимаем \"I understand\". После чего добавляем этот же контракт для отображения токена в мм.\n0x1643E812aE58766192Cf7D2Cf9567dF2C37e9B7F\n3. Стейкаем gETH и получаем rETH\n",
+    {
+     "type": "link",
+     "text": "https://testnet.rocketpool.net/"
+    },
+    "\n4. Переходим на сайт и по очереди депозитим полученные токены.\n",
+    {
+     "type": "link",
+     "text": "https://goerli.eigenlayer.xyz/"
+    },
+    "\n5. Ждем 2 минуты, после чего анстейкаем. Процесс анстейка длится 7 дней.\n6. На главной странице можно нажать \"Create Pod\"\n7. Оставляем отзывы и пожелания в канале testnet-feedback.\n\nТак же можно делиться идеями на форуме: \n",
+    {
+     "type": "link",
+     "text": "https://forum.eigenlayer.xyz/"
+    },
+    "\n\nДля тех, кто разбирается, можно чекнуть код и оставить фидбек в гитхабе.\n",
+    {
+     "type": "link",
+     "text": "https://github.com/Layr-Labs/eigenlayer-contracts"
+    },
+    "\n\nПодробный гайд по тестнету:\n",
+    {
+     "type": "link",
+     "text": "https://docs.eigenlayer.xyz/guides/liquid-restaking/restake"
+    },
+    "\nСтатья:\n",
+    {
+     "type": "link",
+     "text": "https://www.blog.eigenlayer.xyz/stage-1-testnet-announcement/"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/eigenlayer"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://discord.gg/eigenlayer"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "EigenLayer\n\n*Тестнет, приоритет высокий\n*Временные затраты ±10 минут\n*Дедлайна нет\n\nEigenLayer - протокол рестейкинга. Привлекли суммарно $64.4M, в инвесторах Blockchain Capital, Coinbase, Polychain и тд.\n\nЗапустили тестнет, естественно \"не награждаемый\", который будет состоять из трех этапов:\nStage 1: Stakers - где юзеры вовлечены в тестирование модуля рестейкинга\nStage 2: Operators - где нодеры смогут получить делегирование от рестейкеров\nStage 3: Services - где будут внедрены первые активные проверенные службы\n\nСейчас мы можем протестировать первый этап, который доступен в сети Goerli. Для этого:\n1. Покупаем gETH в сети Арбитрум или Оптимизм\n"
+    },
+    {
+     "type": "link",
+     "text": "https://testnetbridge.com/"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. Отправляем gETH на адрес контракта stETH, чтобы таким образом совершить свап. В метамаске при отправке нажимаем \"I understand\". После чего добавляем этот же контракт для отображения токена в мм.\n0x1643E812aE58766192Cf7D2Cf9567dF2C37e9B7F\n3. Стейкаем gETH и получаем rETH\n"
+    },
+    {
+     "type": "link",
+     "text": "https://testnet.rocketpool.net/"
+    },
+    {
+     "type": "plain",
+     "text": "\n4. Переходим на сайт и по очереди депозитим полученные токены.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://goerli.eigenlayer.xyz/"
+    },
+    {
+     "type": "plain",
+     "text": "\n5. Ждем 2 минуты, после чего анстейкаем. Процесс анстейка длится 7 дней.\n6. На главной странице можно нажать \"Create Pod\"\n7. Оставляем отзывы и пожелания в канале testnet-feedback.\n\nТак же можно делиться идеями на форуме: \n"
+    },
+    {
+     "type": "link",
+     "text": "https://forum.eigenlayer.xyz/"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nДля тех, кто разбирается, можно чекнуть код и оставить фидбек в гитхабе.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://github.com/Layr-Labs/eigenlayer-contracts"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nПодробный гайд по тестнету:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://docs.eigenlayer.xyz/guides/liquid-restaking/restake"
+    },
+    {
+     "type": "plain",
+     "text": "\nСтатья:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.blog.eigenlayer.xyz/stage-1-testnet-announcement/"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/eigenlayer"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://discord.gg/eigenlayer"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 498,
+   "type": "message",
+   "date": "2023-04-09T11:27:49",
+   "date_unixtime": "1681028869",
+   "edited": "2023-04-09T11:29:59",
+   "edited_unixtime": "1681028999",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "1. Стоит сильно замультить деплой в Base. Для быстроты, можно закинуть на один новый или не очень акк ETH в Арбитруме или Оптимизме и купить через testnetbridge gETH, после чего раскинуть на нужное кол-во новосозданных акков (можно прямо в одном мм), там переслать их в Бейс, задеплоить контракт и забрать нфт. Более затратным по времени вариантом, будет раскинуть ETH на каждый новый акк и делать все отдельно, не связывая кошели. \n\n2. На домены в аптосе сделали невиданную скидку с 5 АРТ до 1 АРТ ($11). В связи с этим, можно прикупить парочку или даже несколько, т.к. нейм сервис прямо указан на сайте аптоса и это вполне может быть активностью, за которую могут раздать часть оставшихся нам токенов.\n\n3. Добавил в маршрут протоколы для качественной активности в LayerZero:\n- ",
+    {
+     "type": "link",
+     "text": "https://app.holograph.xyz/"
+    },
+    "\nСоздаем коллекцию, например в сети Аваланч, затем жмем Deploy. Cоздаем нфт (юзаем левые картинки), нажимаем на нем MINT и подтверждаем в мм. Переключаемся на Полигон и проделываем то же самое, после чего переходим в Bridge и трансферим нфт\n- ",
+    {
+     "type": "link",
+     "text": "https://www.galxestargatoronft.com/bridge"
+    },
+    "\nПокупаем нфт, после чего трансферим его через мост ",
+    {
+     "type": "link",
+     "text": "https://qx.app/asset/0x2f05e799C61b600c65238a9DF060cABA63Db8E78/1"
+    },
+    "\n- ",
+    {
+     "type": "link",
+     "text": "https://www.lz.domains/"
+    },
+    " \nПокупаем домен, $5 за пятизнак + комса в эфире\n- ",
+    {
+     "type": "link",
+     "text": "https://bridge.coredao.org/bridge"
+    },
+    "\nДобавляем прямо на сайте сеть \"CoreDAO\", затем покупаем токены CORE на ОКХ и отправляем на мм для комсы. После этого можно будет пересылать USDT или USDC из BSC в CoreDAO и наоборот. Комса в сети кор ±1$, транзы отображаются в ",
+    {
+     "type": "link",
+     "text": "https://layerzeroscan.com/"
+    },
+    "\n\nУбрал ",
+    {
+     "type": "link",
+     "text": "https://usdcdemo.layerzero.network/bridge"
+    },
+    " т.к. его прикрыли до запуска в мейне.\n\n4. Оформил гайд по деплою в Алео, но за 2.5 часа так и не дождался тестовых токенов, а значит не могу затестить как мультить. Поэтому пока так. По идее можно сразу начать с получения тестовых токенов, условия получения в описании ",
+    {
+     "type": "link",
+     "text": "https://twitter.com/AleoFaucet"
+    },
+    ", после чего скипать п.4 в гайде, но опять же надо их сперва дождаться в принципе."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "1. Стоит сильно замультить деплой в Base. Для быстроты, можно закинуть на один новый или не очень акк ETH в Арбитруме или Оптимизме и купить через testnetbridge gETH, после чего раскинуть на нужное кол-во новосозданных акков (можно прямо в одном мм), там переслать их в Бейс, задеплоить контракт и забрать нфт. Более затратным по времени вариантом, будет раскинуть ETH на каждый новый акк и делать все отдельно, не связывая кошели. \n\n2. На домены в аптосе сделали невиданную скидку с 5 АРТ до 1 АРТ ($11). В связи с этим, можно прикупить парочку или даже несколько, т.к. нейм сервис прямо указан на сайте аптоса и это вполне может быть активностью, за которую могут раздать часть оставшихся нам токенов.\n\n3. Добавил в маршрут протоколы для качественной активности в LayerZero:\n- "
+    },
+    {
+     "type": "link",
+     "text": "https://app.holograph.xyz/"
+    },
+    {
+     "type": "plain",
+     "text": "\nСоздаем коллекцию, например в сети Аваланч, затем жмем Deploy. Cоздаем нфт (юзаем левые картинки), нажимаем на нем MINT и подтверждаем в мм. Переключаемся на Полигон и проделываем то же самое, после чего переходим в Bridge и трансферим нфт\n- "
+    },
+    {
+     "type": "link",
+     "text": "https://www.galxestargatoronft.com/bridge"
+    },
+    {
+     "type": "plain",
+     "text": "\nПокупаем нфт, после чего трансферим его через мост "
+    },
+    {
+     "type": "link",
+     "text": "https://qx.app/asset/0x2f05e799C61b600c65238a9DF060cABA63Db8E78/1"
+    },
+    {
+     "type": "plain",
+     "text": "\n- "
+    },
+    {
+     "type": "link",
+     "text": "https://www.lz.domains/"
+    },
+    {
+     "type": "plain",
+     "text": " \nПокупаем домен, $5 за пятизнак + комса в эфире\n- "
+    },
+    {
+     "type": "link",
+     "text": "https://bridge.coredao.org/bridge"
+    },
+    {
+     "type": "plain",
+     "text": "\nДобавляем прямо на сайте сеть \"CoreDAO\", затем покупаем токены CORE на ОКХ и отправляем на мм для комсы. После этого можно будет пересылать USDT или USDC из BSC в CoreDAO и наоборот. Комса в сети кор ±1$, транзы отображаются в "
+    },
+    {
+     "type": "link",
+     "text": "https://layerzeroscan.com/"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nУбрал "
+    },
+    {
+     "type": "link",
+     "text": "https://usdcdemo.layerzero.network/bridge"
+    },
+    {
+     "type": "plain",
+     "text": " т.к. его прикрыли до запуска в мейне.\n\n4. Оформил гайд по деплою в Алео, но за 2.5 часа так и не дождался тестовых токенов, а значит не могу затестить как мультить. Поэтому пока так. По идее можно сразу начать с получения тестовых токенов, условия получения в описании "
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/AleoFaucet"
+    },
+    {
+     "type": "plain",
+     "text": ", после чего скипать п.4 в гайде, но опять же надо их сперва дождаться в принципе."
+    }
+   ]
+  },
+  {
+   "id": 499,
+   "type": "message",
+   "date": "2023-04-09T11:33:22",
+   "date_unixtime": "1681029202",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 8679,
+   "width": 1280,
+   "height": 720,
+   "text": "Запись вчерашнего созвона",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Запись вчерашнего созвона"
+    }
+   ]
+  },
+  {
+   "id": 500,
+   "type": "message",
+   "date": "2023-04-09T18:09:10",
+   "date_unixtime": "1681052950",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "SushiSwap хакнули, нужно сделать ревоук контрактов, которые апрувились за последние 4 дня. Список тут:\n",
+    {
+     "type": "link",
+     "text": "https://gist.github.com/0xngmi/40c530a6dc219e62939ed911b5d5ac70"
+    },
+    "\n\nТут можно проверить, каким вашим кошелькам нужно сделать ревоук\n",
+    {
+     "type": "link",
+     "text": "https://0xngmi.github.io/sushi-test-hack/"
+    },
+    "\n\nОтозвать апрувы тут:\n",
+    {
+     "type": "link",
+     "text": "https://revoke.cash/"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://cointool.app/approve/eth"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/peckshield/status/1644907207530774530"
+    },
+    "\n",
+    {
+     "type": "mention",
+     "text": "@Ambadropper"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "SushiSwap хакнули, нужно сделать ревоук контрактов, которые апрувились за последние 4 дня. Список тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://gist.github.com/0xngmi/40c530a6dc219e62939ed911b5d5ac70"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nТут можно проверить, каким вашим кошелькам нужно сделать ревоук\n"
+    },
+    {
+     "type": "link",
+     "text": "https://0xngmi.github.io/sushi-test-hack/"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nОтозвать апрувы тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://revoke.cash/"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://cointool.app/approve/eth"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/peckshield/status/1644907207530774530"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Ambadropper"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 501,
+   "type": "message",
+   "date": "2023-04-10T10:20:02",
+   "date_unixtime": "1681111202",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Swell Network Testnet\n\n*Приоритет средний\n*Временные затраты: 30 секунд + отзыв\n\nSwell - это протокол ликвидного стейкинга. Привлекли $3.8M от Framework Ventures и др. Запланирован собственный токен SWELL.\n\nТестнет:\n1. Берем тестовые ETH, известно где:\n",
+    {
+     "type": "link",
+     "text": "https://testnetbridge.com/"
+    },
+    "\n2. Стейкаем сколько не жалко (анстейкнуть пока нельзя)\n",
+    {
+     "type": "link",
+     "text": "https://testnet.swellnetwork.io/"
+    },
+    "\n3. Оставляем отзыв\n",
+    {
+     "type": "link",
+     "text": "https://swellnetwork.canny.io/testnet-feedback"
+    },
+    "\n\nДополнительно можно заполнить форму на советников для DAO. Требования:\n- Большой опыт работы с DeFi, включая понимание ликвидного стейкинга и его роли в DeFi.\n- Опыт управления, пропозалов и взаимодействия с DAO.\nПодробнее тут:\n",
+    {
+     "type": "link",
+     "text": "https://www.swellnetwork.io/post/swell-ecosystem-council"
+    },
+    "\n\nТак же, у проекта есть подобие амбы \"Discord Aquanauts\", в которой можно получить различные роли, подробнее тут:\n",
+    {
+     "type": "link",
+     "text": "https://www.swellnetwork.io/post/join-the-aquanauts"
+    },
+    "\n\nДля получения первой роли Diver нужно присутствовать на АМА, а после процитировать твит, который выложат в канале анонсов. Сейчас можно сделать это с данным твитом, для этого нужно тегнуть Swell и Pendle с хештегом ",
+    {
+     "type": "hashtag",
+     "text": "#LSDfi"
+    },
+    ":\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/swellnetworkio/status/1643615329971568648"
+    },
+    "\n\nДля ролей Navigator или Submariner можно создать твиттер-тред о проекте, мемы и прочее. После этого нужно подтвердить свои действия в соответствующих каналах:\n",
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/907097149521678357/916125285999583253/1093176719441145897"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/swellnetworkio"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Swell Network Testnet\n\n*Приоритет средний\n*Временные затраты: 30 секунд + отзыв\n\nSwell - это протокол ликвидного стейкинга. Привлекли $3.8M от Framework Ventures и др. Запланирован собственный токен SWELL.\n\nТестнет:\n1. Берем тестовые ETH, известно где:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://testnetbridge.com/"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. Стейкаем сколько не жалко (анстейкнуть пока нельзя)\n"
+    },
+    {
+     "type": "link",
+     "text": "https://testnet.swellnetwork.io/"
+    },
+    {
+     "type": "plain",
+     "text": "\n3. Оставляем отзыв\n"
+    },
+    {
+     "type": "link",
+     "text": "https://swellnetwork.canny.io/testnet-feedback"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nДополнительно можно заполнить форму на советников для DAO. Требования:\n- Большой опыт работы с DeFi, включая понимание ликвидного стейкинга и его роли в DeFi.\n- Опыт управления, пропозалов и взаимодействия с DAO.\nПодробнее тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.swellnetwork.io/post/swell-ecosystem-council"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nТак же, у проекта есть подобие амбы \"Discord Aquanauts\", в которой можно получить различные роли, подробнее тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.swellnetwork.io/post/join-the-aquanauts"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nДля получения первой роли Diver нужно присутствовать на АМА, а после процитировать твит, который выложат в канале анонсов. Сейчас можно сделать это с данным твитом, для этого нужно тегнуть Swell и Pendle с хештегом "
+    },
+    {
+     "type": "hashtag",
+     "text": "#LSDfi"
+    },
+    {
+     "type": "plain",
+     "text": ":\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/swellnetworkio/status/1643615329971568648"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nДля ролей Navigator или Submariner можно создать твиттер-тред о проекте, мемы и прочее. После этого нужно подтвердить свои действия в соответствующих каналах:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/907097149521678357/916125285999583253/1093176719441145897"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/swellnetworkio"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 502,
+   "type": "message",
+   "date": "2023-04-10T21:19:02",
+   "date_unixtime": "1681150742",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "SyncSwap Loyalty Program\n\n*Приоритет высокий\n*Дедлайн 10 мая\n\nЗапустили награждаемую торговую кампанию, в которой, зависимости от объема и сгенерированной торговой комиссии, можно будет получить непередаваемый токен лояльности ySYNC. Заработанные ySYNC можно периодически конвертировать в токены veSYNC.\n\nЗа каждый доллар комиссии, получаем 1 ySYNC. Например с $10к при 0.3% комиссии, получаем 3 ySYNC.\n\nКампания начнется с эпохи Genesis (Epoch 01) и продлится до завершения TGE токена SYNC.\n\nВсего будет выделено 900 000 токенов SYNC для эпохи Genesis, которая продлится 30 дней, начиная с текущего момента и до 10 мая 19:00.\n\nДопустимые для торговли токены:\n-ETH\n-USDC\n-BUSD (Celer Network)\n\nСвою статистику лояльности, включая заработанные ySYNC, предполагаемые вознаграждения, можно увидеть тут:\n",
+    {
+     "type": "link",
+     "text": "https://syncswap.xyz/rewards"
+    },
+    "\n\nНачинать торговать стоит уже сейчас, т.к. чем больше людей будет участвовать, тем меньше будут расчетные вознаграждения.\n\n",
+    {
+     "type": "link",
+     "text": "https://mirror.xyz/0x000002c34bAE6DD7BeC72AcbA6aAAC1e01A359De/fg8Eqe8cKZmpWuA1LcwRDxNnTkCfOMPJ-serOdjxMXE"
+    },
+    "\n\nТак же SyncSwap запартнерились с Orbiter, правда для нас ничего не поменялось, просто порадуемся этому факту."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "SyncSwap Loyalty Program\n\n*Приоритет высокий\n*Дедлайн 10 мая\n\nЗапустили награждаемую торговую кампанию, в которой, зависимости от объема и сгенерированной торговой комиссии, можно будет получить непередаваемый токен лояльности ySYNC. Заработанные ySYNC можно периодически конвертировать в токены veSYNC.\n\nЗа каждый доллар комиссии, получаем 1 ySYNC. Например с $10к при 0.3% комиссии, получаем 3 ySYNC.\n\nКампания начнется с эпохи Genesis (Epoch 01) и продлится до завершения TGE токена SYNC.\n\nВсего будет выделено 900 000 токенов SYNC для эпохи Genesis, которая продлится 30 дней, начиная с текущего момента и до 10 мая 19:00.\n\nДопустимые для торговли токены:\n-ETH\n-USDC\n-BUSD (Celer Network)\n\nСвою статистику лояльности, включая заработанные ySYNC, предполагаемые вознаграждения, можно увидеть тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://syncswap.xyz/rewards"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nНачинать торговать стоит уже сейчас, т.к. чем больше людей будет участвовать, тем меньше будут расчетные вознаграждения.\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://mirror.xyz/0x000002c34bAE6DD7BeC72AcbA6aAAC1e01A359De/fg8Eqe8cKZmpWuA1LcwRDxNnTkCfOMPJ-serOdjxMXE"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nТак же SyncSwap запартнерились с Orbiter, правда для нас ничего не поменялось, просто порадуемся этому факту."
+    }
+   ]
+  },
+  {
+   "id": 503,
+   "type": "message",
+   "date": "2023-04-10T21:45:02",
+   "date_unixtime": "1681152302",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "*Orbiter* предупреждают максимально внимательно проверять тот ли орбитер вы юзаете, т.к. сегодня несколько человек скаманулись на фейковом орбитре, который продвигает Google Ads. \n\nЛюбые ссылки на протоколы лучше открывать из истории браузера или из оф твиттеров / дискордов проекта, не искать в гугле.\n\nТак же, они починили History и добавили Search, где можно отследить статус транзы через хеш.\n",
+    {
+     "type": "link",
+     "text": "https://www.orbiter.finance/history"
+    },
+    "\n\nА вот гильдию к сожалению не починили, можно разве что лично посчитать в истории.\n",
+    {
+     "type": "link",
+     "text": "https://guild.xyz/orbiter-finance"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "*Orbiter* предупреждают максимально внимательно проверять тот ли орбитер вы юзаете, т.к. сегодня несколько человек скаманулись на фейковом орбитре, который продвигает Google Ads. \n\nЛюбые ссылки на протоколы лучше открывать из истории браузера или из оф твиттеров / дискордов проекта, не искать в гугле.\n\nТак же, они починили History и добавили Search, где можно отследить статус транзы через хеш.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.orbiter.finance/history"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nА вот гильдию к сожалению не починили, можно разве что лично посчитать в истории.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://guild.xyz/orbiter-finance"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 504,
+   "type": "message",
+   "date": "2023-04-11T10:51:28",
+   "date_unixtime": "1681199488",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "*Braavos x ",
+    {
+     "type": "link",
+     "text": "Starknet.id"
+    },
+    "*\n\n*Приоритет высокий\n*Дедлайн 20 апреля\n\nОчередная совместная кампания, в которой можно получить домен, за $1.5, и 2 из 3 нфт \"Shield of Braavos\":\n\n1. Bronze Shield of Braavos (Level 1) - нужно иметь сабдомен “.braavos.stark” или “vip.stark” в качестве основного домена, перейти на сайт и нажать Get my shield.\n",
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavos"
+    },
+    "\n2. Silver Shield of Braavos (Level 2) - нужно иметь домен \".stark\" в качестве основного, перейти на сайт и нажать Get my shield.\n",
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavos"
+    },
+    "\n3. Gold Shield of Braavos (Level 3) - информация по этой нфт пока неизвестна, ждем.\n\nОни являются частью официальной коллекции Braavos, а их ютилити будет раскрыто позднее. \n\nЕсли еще нет домена, можно зарегистрировать прямо через Браавос. Для этого нужно:\n1. Нажать на свой акк слева вверху -> на шестеренку настроек -> \"Register braavos.stark domain” -> “Register.” \nПосле этого можно сминтить Bronze Shield\n",
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavos"
+    },
+    "\n2. Перейти по ссылке и создать домен .stark из 5 символов за 0.0008 ETH, после чего автоматически сминтится Silver Shield.\n",
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavosDiscount"
+    },
+    "\n\n🤝 ",
+    {
+     "type": "mention",
+     "text": "@Yurii"
+    },
+    " | DOUBLETOP \n",
+    {
+     "type": "link",
+     "text": "https://braavos.app/exclusive-nfts-and-domains-giveaway-win-the-official-shields-of-braavos/"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "*Braavos x "
+    },
+    {
+     "type": "link",
+     "text": "Starknet.id"
+    },
+    {
+     "type": "plain",
+     "text": "*\n\n*Приоритет высокий\n*Дедлайн 20 апреля\n\nОчередная совместная кампания, в которой можно получить домен, за $1.5, и 2 из 3 нфт \"Shield of Braavos\":\n\n1. Bronze Shield of Braavos (Level 1) - нужно иметь сабдомен “.braavos.stark” или “vip.stark” в качестве основного домена, перейти на сайт и нажать Get my shield.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavos"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. Silver Shield of Braavos (Level 2) - нужно иметь домен \".stark\" в качестве основного, перейти на сайт и нажать Get my shield.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavos"
+    },
+    {
+     "type": "plain",
+     "text": "\n3. Gold Shield of Braavos (Level 3) - информация по этой нфт пока неизвестна, ждем.\n\nОни являются частью официальной коллекции Braavos, а их ютилити будет раскрыто позднее. \n\nЕсли еще нет домена, можно зарегистрировать прямо через Браавос. Для этого нужно:\n1. Нажать на свой акк слева вверху -> на шестеренку настроек -> \"Register braavos.stark domain” -> “Register.” \nПосле этого можно сминтить Bronze Shield\n"
+    },
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavos"
+    },
+    {
+     "type": "plain",
+     "text": "\n2. Перейти по ссылке и создать домен .stark из 5 символов за 0.0008 ETH, после чего автоматически сминтится Silver Shield.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavosDiscount"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n🤝 "
+    },
+    {
+     "type": "mention",
+     "text": "@Yurii"
+    },
+    {
+     "type": "plain",
+     "text": " | DOUBLETOP \n"
+    },
+    {
+     "type": "link",
+     "text": "https://braavos.app/exclusive-nfts-and-domains-giveaway-win-the-official-shields-of-braavos/"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 505,
+   "type": "message",
+   "date": "2023-04-11T11:26:02",
+   "date_unixtime": "1681201562",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "*Scroll* снесли старую роль \"Verified\". Чтобы ее вернуть, нужно пройти верификацию в канале # | verify, после чего роль станет \"Verified (Wick)\".\n\nТак же, можно выбрать роли в канале #│choose-your-role, а чтобы вернуть Mystery role, необходимо заново вступить в гильдию.\n\n",
+    {
+     "type": "link",
+     "text": "https://guild.xyz/scrollzkp"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://discord.gg/scroll"
+    },
+    "\n",
+    {
+     "type": "mention",
+     "text": "@Ambadropper"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "*Scroll* снесли старую роль \"Verified\". Чтобы ее вернуть, нужно пройти верификацию в канале # | verify, после чего роль станет \"Verified (Wick)\".\n\nТак же, можно выбрать роли в канале #│choose-your-role, а чтобы вернуть Mystery role, необходимо заново вступить в гильдию.\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://guild.xyz/scrollzkp"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://discord.gg/scroll"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Ambadropper"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 506,
+   "type": "message",
+   "date": "2023-04-12T09:35:23",
+   "date_unixtime": "1681281323",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "*Vela* закрывают свою бету, так как новые привлеченные разработчики нашли уязвимости, а так же они нашли отклонение в цене VLP. \n\nЗакрытие означает, что:\n- Открытые позиции будут принудительно закрыты, а USDC будут возвращены в течение следующих 48 часов.\n- Залоговое обеспечение вернут эирдропом и рефандом.\n- Погашение и минт VLP заморожены, все холдеры VLP получат свои USDC по эирдропом в течение следующих 48 часов (скорее всего, раньше).\n- Hyper VLP минтеры получат раздачу за этот месяц, но дальнейшие раздачи будут отложены до официального запуска.\n\nЗавтра проведут АМА с ответами на все возникшие вопросы.\nКогда бета будет закрыта, обещают поделиться многообещающими превью официального запуска Vela exchange.\n\n",
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/882106675073548320/882106675073548323/1095516938073018421"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "*Vela* закрывают свою бету, так как новые привлеченные разработчики нашли уязвимости, а так же они нашли отклонение в цене VLP. \n\nЗакрытие означает, что:\n- Открытые позиции будут принудительно закрыты, а USDC будут возвращены в течение следующих 48 часов.\n- Залоговое обеспечение вернут эирдропом и рефандом.\n- Погашение и минт VLP заморожены, все холдеры VLP получат свои USDC по эирдропом в течение следующих 48 часов (скорее всего, раньше).\n- Hyper VLP минтеры получат раздачу за этот месяц, но дальнейшие раздачи будут отложены до официального запуска.\n\nЗавтра проведут АМА с ответами на все возникшие вопросы.\nКогда бета будет закрыта, обещают поделиться многообещающими превью официального запуска Vela exchange.\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/882106675073548320/882106675073548323/1095516938073018421"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 507,
+   "type": "message",
+   "date": "2023-04-13T10:28:32",
+   "date_unixtime": "1681370912",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Можно клеймить нфт Shanghai: Open Edition.\n",
+    {
+     "type": "link",
+     "text": "https://shanghai-capella.consensys-nft.com/"
+    },
+    "\n\nСпешить не нужно, можно подождать когда газ будет дешевле, сейчас клейм в сети эфира стоит ±5$. Дедлайн клейма через 68 часов 40 минут."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Можно клеймить нфт Shanghai: Open Edition.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://shanghai-capella.consensys-nft.com/"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nСпешить не нужно, можно подождать когда газ будет дешевле, сейчас клейм в сети эфира стоит ±5$. Дедлайн клейма через 68 часов 40 минут."
+    }
+   ]
+  },
+  {
+   "id": 508,
+   "type": "message",
+   "date": "2023-04-13T11:38:02",
+   "date_unixtime": "1681375082",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Sei Atlantic-2\n\nСразу после анонсов о доп финансировании получаем продолжение кампании, на этот раз уже совместно с Blocked Protocol - протоколом оценки вовлеченности, в котором обучение проходит в виде квестов, а в качестве ревардов поинты BLOCKS.\n\nНужно будет выполнить три миссии, одна из которых получить токены в кране, а так как сайт с миссиями сейчас благополучно лежит, то это единственное, что на данный момент можно сделать. Кран в диске Sei:\n",
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/973057323805311026/1080227222620733460"
+    },
+    "\n\nПодготавливаемся и ждем, когда протоколу полегчает.\nОбсуждение тут Sei Staking Game \n\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/SeiNetwork/status/1646211287041310720"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/BlockedProtocol/status/1646216360366833664"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sei Atlantic-2\n\nСразу после анонсов о доп финансировании получаем продолжение кампании, на этот раз уже совместно с Blocked Protocol - протоколом оценки вовлеченности, в котором обучение проходит в виде квестов, а в качестве ревардов поинты BLOCKS.\n\nНужно будет выполнить три миссии, одна из которых получить токены в кране, а так как сайт с миссиями сейчас благополучно лежит, то это единственное, что на данный момент можно сделать. Кран в диске Sei:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://discord.com/channels/973057323805311026/1080227222620733460"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nПодготавливаемся и ждем, когда протоколу полегчает.\nОбсуждение тут Sei Staking Game \n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/SeiNetwork/status/1646211287041310720"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/BlockedProtocol/status/1646216360366833664"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 509,
+   "type": "message",
+   "date": "2023-04-14T17:22:01",
+   "date_unixtime": "1681482121",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Reunit Airdrop\n\nДроп за холд STG и veSTG подтвердил ожидания и даже отбивает часть комсы в L0.\n\nКритерии:\n- холдить 50+ STG на момент снепшота\n- снепшот был сделан 9 марта\n- за veSTG давали 75% токенов, за STG 25% (всего на дроп выделено 2М)\n\nВ итоге за роли холда и стейкинга в гильдии Stargate, получаем ±4,9 REUNI, что по текущему курсу ±16$.\nКлейм будет доступен в мае, после запуска второй фазы беты.\n\nПроверить кол-во токенов можно тут (выбираем сеть в которой токены в холде или стейке и вставляем кош)\n",
+    {
+     "type": "link",
+     "text": "https://web.everywhere.finance/#contentAirdrop"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/EverywhereFi/status/1641197242605527040"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Reunit Airdrop\n\nДроп за холд STG и veSTG подтвердил ожидания и даже отбивает часть комсы в L0.\n\nКритерии:\n- холдить 50+ STG на момент снепшота\n- снепшот был сделан 9 марта\n- за veSTG давали 75% токенов, за STG 25% (всего на дроп выделено 2М)\n\nВ итоге за роли холда и стейкинга в гильдии Stargate, получаем ±4,9 REUNI, что по текущему курсу ±16$.\nКлейм будет доступен в мае, после запуска второй фазы беты.\n\nПроверить кол-во токенов можно тут (выбираем сеть в которой токены в холде или стейке и вставляем кош)\n"
+    },
+    {
+     "type": "link",
+     "text": "https://web.everywhere.finance/#contentAirdrop"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/EverywhereFi/status/1641197242605527040"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 510,
+   "type": "message",
+   "date": "2023-04-14T18:10:04",
+   "date_unixtime": "1681485004",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Nexon Finance\n\n*Приоритет высокий\n\nNexon Finance - лендинг протокол в zkSync Era. За последние дни запартнерились с несколькими протоколами, а так же объявили о собственном токене NXN.\nО снепшоте ничего сказано не было, а это значит, что еще не поздно активничать, тем более, что они сами провоцируют на это:\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/NexonFi/status/1646194466317910020"
+    },
+    "\n\nКладем USDC и занимаем USDC, по желанию повторяем. Borrow Utilization не должен превышать 80%.\n\nПосле этого легко проходим квест\n",
+    {
+     "type": "link",
+     "text": "https://layer3.xyz/quests/nexon-on-zksync"
+    },
+    "\n\nТак же можно получить роль OG (OG2, OG3) через покупку соответствующей нфт Nexon Army. Это даст воутинг пауер для голосований в снепшоте. Флор Nexon Army 3 Rank (для OG3) сейчас ±92$, для OG2 и OG еще дороже, поэтому дуор.\n",
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/nexon-army"
+    },
+    "\n\nКроме этого есть роль за донат минимум $5 на адрес Nexon. Неизвестно как другие протоколы отнесутся к такой транзакции, поэтому с основных кошелей лучше не донатить.\n",
+    {
+     "type": "link",
+     "text": "https://donation.nexon.finance/"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://guild.xyz/nexon-finance"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://app.nexon.finance/"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/NexonFi"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nexon Finance\n\n*Приоритет высокий\n\nNexon Finance - лендинг протокол в zkSync Era. За последние дни запартнерились с несколькими протоколами, а так же объявили о собственном токене NXN.\nО снепшоте ничего сказано не было, а это значит, что еще не поздно активничать, тем более, что они сами провоцируют на это:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/NexonFi/status/1646194466317910020"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nКладем USDC и занимаем USDC, по желанию повторяем. Borrow Utilization не должен превышать 80%.\n\nПосле этого легко проходим квест\n"
+    },
+    {
+     "type": "link",
+     "text": "https://layer3.xyz/quests/nexon-on-zksync"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nТак же можно получить роль OG (OG2, OG3) через покупку соответствующей нфт Nexon Army. Это даст воутинг пауер для голосований в снепшоте. Флор Nexon Army 3 Rank (для OG3) сейчас ±92$, для OG2 и OG еще дороже, поэтому дуор.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/nexon-army"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nКроме этого есть роль за донат минимум $5 на адрес Nexon. Неизвестно как другие протоколы отнесутся к такой транзакции, поэтому с основных кошелей лучше не донатить.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://donation.nexon.finance/"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://guild.xyz/nexon-finance"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://app.nexon.finance/"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/NexonFi"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 511,
+   "type": "message",
+   "date": "2023-04-14T18:35:02",
+   "date_unixtime": "1681486502",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Kresko объявили победителей The Quest for Kresk. Можно сверить свои кошельки среди представленных наград.\n\nОтображение скора и минт нфт будут доступны на странице кампании завтра.\n",
+    {
+     "type": "link",
+     "text": "https://medium.com/kreskofi/announcing-the-winners-of-the-quest-for-kresk-48541ca2e5c7"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Kresko объявили победителей The Quest for Kresk. Можно сверить свои кошельки среди представленных наград.\n\nОтображение скора и минт нфт будут доступны на странице кампании завтра.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://medium.com/kreskofi/announcing-the-winners-of-the-quest-for-kresk-48541ca2e5c7"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 512,
+   "type": "message",
+   "date": "2023-04-15T11:41:41",
+   "date_unixtime": "1681548101",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "ОКХ выкатили статью с потенциальными критериями дропа LayerZero (подсмотрели в маршрут). \n\nЕсли коротко - мы идем в правильном направлении.\n",
+    {
+     "type": "link",
+     "text": "https://www.okx.com/ru/landingpage/potential-layerzero-airdrop"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ОКХ выкатили статью с потенциальными критериями дропа LayerZero (подсмотрели в маршрут). \n\nЕсли коротко - мы идем в правильном направлении.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.okx.com/ru/landingpage/potential-layerzero-airdrop"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 513,
+   "type": "message",
+   "date": "2023-04-15T11:52:02",
+   "date_unixtime": "1681548722",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Sui не подвели, вместо дропа будет обещанный сейл и заслуженные награды. Под это попадают следующие категории:\n1. Победители Capy Holidays - получат токены.\n2. Champions - тестировщики/модераторы/организаторы мероприятий. Получат грант когда сеть выйдет в мейн.\n3. Supporters - юзеры которые были в диске до 1 февраля 2023. Тут слегка не понятно, что это будет за вл, учитывая, что на 1 февраля в диске уже было 500к юзеров. Ждем больше инфы.\n4. Победители Frenemies - получат право участвовать в Recognition Sale (распродаже). Этой категории должны прислать уведомление.\n\nДля всех остальных будет проведен General Sale на KuCoin и OKX (и ByBit), правда Украина и другие СНГ страны допускаются лишь на ОКХ и цена для этого пула х3.\n",
+    {
+     "type": "link",
+     "text": "https://www.kucoin.com/ru/news/en-announcement-of-sui-token-sale-on-kucoin-spotlight"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://www.okx.com/ru/jumpstart/project/10076?type=3&from=home&order=0&title=SUI"
+    },
+    "\n",
+    {
+     "type": "link",
+     "text": "https://www.bybit.com/ru-RU/bystarter/"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://sui.io/community-access-program"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sui не подвели, вместо дропа будет обещанный сейл и заслуженные награды. Под это попадают следующие категории:\n1. Победители Capy Holidays - получат токены.\n2. Champions - тестировщики/модераторы/организаторы мероприятий. Получат грант когда сеть выйдет в мейн.\n3. Supporters - юзеры которые были в диске до 1 февраля 2023. Тут слегка не понятно, что это будет за вл, учитывая, что на 1 февраля в диске уже было 500к юзеров. Ждем больше инфы.\n4. Победители Frenemies - получат право участвовать в Recognition Sale (распродаже). Этой категории должны прислать уведомление.\n\nДля всех остальных будет проведен General Sale на KuCoin и OKX (и ByBit), правда Украина и другие СНГ страны допускаются лишь на ОКХ и цена для этого пула х3.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.kucoin.com/ru/news/en-announcement-of-sui-token-sale-on-kucoin-spotlight"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.okx.com/ru/jumpstart/project/10076?type=3&from=home&order=0&title=SUI"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.bybit.com/ru-RU/bystarter/"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://sui.io/community-access-program"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 514,
+   "type": "message",
+   "date": "2023-04-15T12:52:02",
+   "date_unixtime": "1681552322",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Можно клеймить The Quest for Kresk NFT в сети Оптимизм. Плата только за газ.\n\nКоллекции:\n",
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/the-quest-for-kresk"
+    },
+    " \n",
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/officially-a-kreskian"
+    },
+    "\n\n",
+    {
+     "type": "link",
+     "text": "https://twitter.com/KreskoFi/status/1647037436692955139"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Можно клеймить The Quest for Kresk NFT в сети Оптимизм. Плата только за газ.\n\nКоллекции:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/the-quest-for-kresk"
+    },
+    {
+     "type": "plain",
+     "text": " \n"
+    },
+    {
+     "type": "link",
+     "text": "https://opensea.io/collection/officially-a-kreskian"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://twitter.com/KreskoFi/status/1647037436692955139"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 515,
+   "type": "message",
+   "date": "2023-04-15T13:05:04",
+   "date_unixtime": "1681553104",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Третья нфт Gold Shield of Braavos доступна для получения.\n\nУсловие: нужно продлить домен на 3 года, заплатив за 2 года. За 5+ знаков вместо 0.027 ETH платим 0.018 ETH, по текущему курсу ±37$. \n\nПредложение так себе, но деваться некуда.\nДедлайн 20 апреля 15:00 по Киеву.\n\nПродлевать тут:\n",
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavosGold"
+    },
+    "\n\nПолная информация о том, как собрать все 3 щита:\n",
+    {
+     "type": "link",
+     "text": "https://medium.com/@draqoosha/braavos-%D0%BA%D0%B0%D0%BA-%D0%B7%D0%B0%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%B2%D1%81%D0%B5-3-nft-%D1%89%D0%B8%D1%82%D0%B0-fa4fdd16a4b1"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Третья нфт Gold Shield of Braavos доступна для получения.\n\nУсловие: нужно продлить домен на 3 года, заплатив за 2 года. За 5+ знаков вместо 0.027 ETH платим 0.018 ETH, по текущему курсу ±37$. \n\nПредложение так себе, но деваться некуда.\nДедлайн 20 апреля 15:00 по Киеву.\n\nПродлевать тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://app.starknet.id/braavosGold"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nПолная информация о том, как собрать все 3 щита:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://medium.com/@draqoosha/braavos-%D0%BA%D0%B0%D0%BA-%D0%B7%D0%B0%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%B2%D1%81%D0%B5-3-nft-%D1%89%D0%B8%D1%82%D0%B0-fa4fdd16a4b1"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 516,
+   "type": "message",
+   "date": "2023-04-15T14:53:02",
+   "date_unixtime": "1681559582",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "text": [
+    "Sei Atlantic-2\n\n*Приоритет средний\n*Дедлайн 3 мая 18:00 по Киеву\n\nBlocked и сеть Sei работают стабильно и уже доступна четвертая миссия. Коротко обо всех:\n\nДля начала нужно установить Leap Wallet импортировав сид фразу от Keplr.\n",
+    {
+     "type": "link",
+     "text": "https://chrome.google.com/webstore/detail/leap-cosmos-wallet/fcfcfllfndlomdhbehjjcoimbgofdncg/related"
+    },
+    "\n\nДалее поочередно выполнить миссии:\n1. В первой миссии нужно получить SEI в кране. Если они у вас были, остается сделать лайк, репост подписку и проклацать оставшиеся пункты.\n2. Во второй миссии то же самое, только клеймим USDC\n3. В третьей миссии нужно свапнуть SEI на RUM и добавить более чем 0.1 SEI в Sei-RUM пул SparrowSwap (при этом оставить 1 на кошельке).\n4. В четвертой миссии нужно добавить ликву еще и в пул SEI-USDC, после чего отправить LP в фарминг (хотя миссию итак засчитает).\n\nКвесты тут:\n",
+    {
+     "type": "link",
+     "text": "https://edge.blocked.cc/products/1"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sei Atlantic-2\n\n*Приоритет средний\n*Дедлайн 3 мая 18:00 по Киеву\n\nBlocked и сеть Sei работают стабильно и уже доступна четвертая миссия. Коротко обо всех:\n\nДля начала нужно установить Leap Wallet импортировав сид фразу от Keplr.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://chrome.google.com/webstore/detail/leap-cosmos-wallet/fcfcfllfndlomdhbehjjcoimbgofdncg/related"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nДалее поочередно выполнить миссии:\n1. В первой миссии нужно получить SEI в кране. Если они у вас были, остается сделать лайк, репост подписку и проклацать оставшиеся пункты.\n2. Во второй миссии то же самое, только клеймим USDC\n3. В третьей миссии нужно свапнуть SEI на RUM и добавить более чем 0.1 SEI в Sei-RUM пул SparrowSwap (при этом оставить 1 на кошельке).\n4. В четвертой миссии нужно добавить ликву еще и в пул SEI-USDC, после чего отправить LP в фарминг (хотя миссию итак засчитает).\n\nКвесты тут:\n"
+    },
+    {
+     "type": "link",
+     "text": "https://edge.blocked.cc/products/1"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 517,
+   "type": "message",
+   "date": "2023-04-17T09:37:15",
+   "date_unixtime": "1681713435",
+   "from": "Retrodrops-AMB",
+   "from_id": "channel1661906981",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "mime_type": "image/png",
+   "width": 1628,
+   "height": 2794,
+   "text": [
+    "Сокращенный вариант маршрута для работы над количеством мультов.\n\n\n",
+    {
+     "type": "spoiler",
+     "text": "антифомо для бродяг"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Сокращенный вариант маршрута для работы над количеством мультов.\n\n\n"
+    },
+    {
+     "type": "spoiler",
+     "text": "антифомо для бродяг"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  }
+ ]
+}
